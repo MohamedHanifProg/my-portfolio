@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { FaCertificate, FaTimes, FaExternalLinkAlt } from 'react-icons/fa';
-import { SiDocker } from 'react-icons/si';
 
 const CertificatesSection = styled.section`
   padding: 80px 20px;
@@ -247,12 +246,7 @@ function Certificates() {
 
   const certificates = [
     {
-      id: 1,
-      name: "Docker Foundations Professional Certificate",
-      issuer: "Docker",
-      date: "December 2025",
-      icon: <SiDocker />,
-      pdfPath: "/docker-foundations-certificate.pdf"
+
     }
     // Add more certificates here as you acquire them
   ];

@@ -55,65 +55,73 @@ function Skills() {
       <h2>Skills</h2>
       <SkillsContainer>
         <SkillCategory>
-          <h3>Languages</h3>
+          <h3>Programming & Scripting</h3>
           <ul>
             <li>Python</li>
-            <li>JavaScript/TypeScript</li>
-            <li>C/C++</li>
-            <li>Bash</li>
+            <li>C, C++</li>
+            <li>Assembly</li>
+            <li>JavaScript</li>
+            <li>Bash, PowerShell</li>
           </ul>
         </SkillCategory>
 
         <SkillCategory>
-          <h3>Backend & APIs</h3>
+          <h3>Databases</h3>
           <ul>
-            <li>FastAPI</li>
-            <li>Node.js/Express</li>
-            <li>REST APIs</li>
-            <li>PostgreSQL</li>
             <li>MySQL</li>
             <li>MongoDB</li>
-            <li>Supabase</li>
+            <li>PostgreSQL</li>
           </ul>
         </SkillCategory>
 
         <SkillCategory>
-          <h3>Frontend</h3>
+          <h3>Frameworks & Libraries</h3>
           <ul>
+            <li>Node.js, Express</li>
             <li>React</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>FastAPI</li>
           </ul>
         </SkillCategory>
 
         <SkillCategory>
-          <h3>Cloud, DevOps & Monitoring</h3>
+          <h3>Cloud & Operating Systems</h3>
           <ul>
             <li>AWS</li>
-            <li>Docker</li>
-            <li>Linux (Ubuntu, Debian, RHEL)</li>
-            <li>Datadog</li>
-            <li>Coralogix</li>
-            <li>Logz.io</li>
-            <li>OpsGenie</li>
-            <li>Azure DevOps</li>
-            <li>Jira</li>
-            <li>Confluence</li>
-            <li>Git</li>
+            <li>Ubuntu, Unix</li>
           </ul>
         </SkillCategory>
 
         <SkillCategory>
-          <h3>Security & Networking</h3>
+          <h3>Machine Learning & Data</h3>
           <ul>
-            <li>TCP/IP, HTTP</li>
-            <li>Wireshark</li>
-            <li>Kali Linux</li>
-            <li>Burp Suite (Community)</li>
-            <li>Scapy</li>
-            <li>Web Security (XSS, CSRF, SQL Injection)</li>
-            <li>Basic Cryptography</li>
-            <li>Secure Coding Concepts</li>
+            <li>Supervised/Unsupervised Learning</li>
+            <li>Neural Networks</li>
+            <li>Pandas, NumPy, Scikit-learn</li>
+          </ul>
+        </SkillCategory>
+
+        <SkillCategory>
+          <h3>Web Development</h3>
+          <ul>
+            <li>Front-End: HTML, CSS, React</li>
+            <li>Back-End: Node.js, FastAPI</li>
+          </ul>
+        </SkillCategory>
+
+        <SkillCategory>
+          <h3>Software Design & Docs</h3>
+          <ul>
+            <li>UML & ERD Diagrams</li>
+            <li>Design Patterns</li>
+            <li>SRS & SDD Documentation</li>
+          </ul>
+        </SkillCategory>
+
+        <SkillCategory>
+          <h3>UI/UX & Collaboration</h3>
+          <ul>
+            <li>Figma, Mockups</li>
+            <li>Git, GitHub</li>
           </ul>
         </SkillCategory>
       </SkillsContainer>

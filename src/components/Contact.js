@@ -255,8 +255,8 @@ function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
 
-  // Change this line in Contact.js:
-  const contactUrl = `mailto:amir.kh28@hotmail.com?subject=Portfolio%20Inquiry`;
+  // Contact QR and links use this email
+  const contactUrl = `mailto:signutre.31@gmail.com?subject=Portfolio%20Inquiry`;
 
   const validateForm = () => {
     const newErrors = {};
@@ -360,21 +360,21 @@ function Contact() {
               <h3>Get in Touch</h3>
               <ContactItem>
                 <FontAwesomeIcon icon={faEnvelope} />
-                <a href="mailto:amir.kh28@hotmail.com">amir.kh28@hotmail.com</a>
+                <a href="mailto:signutre.31@gmail.com">signutre.31@gmail.com</a>
               </ContactItem>
               <ContactItem>
                 <FontAwesomeIcon icon={faPhone} />
-                <a href="tel:+972546773232">054-677-3232</a>
+                <a href="tel:+972527977912">052-797-7912</a>
               </ContactItem>
               <ContactItem>
                 <FontAwesomeIcon icon={faLinkedin} />
-                <a href="https://www.linkedin.com/in/amir-khalifa-598a76239" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/mohamed-hanif-0b9b3a275/" target="_blank" rel="noopener noreferrer">
                   LinkedIn Profile
                 </a>
               </ContactItem>
               <ContactItem>
                 <FontAwesomeIcon icon={faGithub} />
-                <a href="https://github.com/amirkhalifa285" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/MohamedHanifProg" target="_blank" rel="noopener noreferrer">
                   GitHub Profile
                 </a>
               </ContactItem>

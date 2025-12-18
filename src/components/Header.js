@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import logo from '../assets/aklogo.jpg';
+import logo from '../assets/MhLogo.png';
 
 const Nav = styled.nav`
   position: fixed;
@@ -105,7 +105,7 @@ function Header({ toggleTheme, isDarkMode }) {
   return (
     <Nav>
       <a href="#hero">
-        <Logo src={logo} alt="Amir Khalifa Logo" />
+        <Logo src={logo} alt="Mohamed Hanif Logo" />
       </a>
       <HamburgerIcon onClick={() => setMenuOpen(!menuOpen)}>
         {menuOpen ? <FaTimes size={30} /> : <FaBars size={30} />}

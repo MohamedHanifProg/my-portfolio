@@ -1,0 +1,81 @@
+Warning: TT: undefined function: 21
+Warning: TT: invalid function id: 136
+Warning: TT: invalid function id: 136
+Warning: TT: undefined function: 21
+
+
+   
+Mohamed Hanif  
+Software Engineering Student at Shenkar ?ау Engineering, Design, Art  
+Ramat Gan, Israel | 0527977912 | signutre.31@gmail.com                    
+Fourth-year Software Engineering student  specializing in Cloud Development and 
+Data, with two semesters remaining until graduation. Former Technical Support 
+Team Leader at Yes TV, currently working as an NOC Engineer at Elad Systems. 
+Passionate about technology, data-driven solutions, and continuous learning, with 
+a strong interest in pursuing a career as an AI Engineer or Software Developer 
+.Work Experience 
+Elad Systems ?ау NOC Engineer (2025?ауPresent) 
+Providing support and monitoring for the Chameleon system used by 80% of Israeli 
+hospitals. Perform real-time troubleshooting, SQL data analysis, and log diagnostics. 
+Collaborate with development teams to ensure system reliability and performance. 
+Yes Company ?ау Team Leader, Technical Support (2020?ау2022) 
+Started as a Technical Support Representative, resolving customer issues efficiently. 
+Promoted to Team Leader, managing 15?ау20 employees, overseeing performance, 
+and maintaining high service quality. 
+Programming Mentor ?ау Academic Excellence Program (2023?ау2024) 
+Selected as a mentor for first-year students after earning top grades (90 in C, 85 in 
+C++). Guided students through programming fundamentals, fostering strong coding 
+and problem-solving skills. 
+PROJECTS  
+FlyEase  
+?а? Smart Flight Booking & Management System enhancing airport 
+experiences.  
+?а? Features: Real-time flight updates, interactive navigation 
+(Dijkstra?ащs algorithm), queue time predictions, baggage tracking, 
+and service booking.  
+?а? Built with React.js (Fabric.js, Axios.js), FastAPI, and PostgreSQL.  
+?а? Secure authentication (JWT, bcrypt) and real-time updates via 
+WebSockets.  
+?а? Deployed on: Netlify (Frontend), Railway.app (Backend), Heroku 
+(Database).  
+?а? Live Demo: FlyEase on Netlify  
+** More projects can be found on my GitHub and linkedin 
+ 
+Education  
+Shenkar ?ау Engineering, Design, Art 
+Bachelor of Science (B.Sc.) in Software Engineering (2022?ау2026, expected 
+graduation) 
+ 
+ 
+ 
+   
+Skills 
+Programming & Scripting 
+Languages: 
+Python, C, C++, Assembly, 
+JavaScript, Bash, PowerShell 
+Databases: 
+MySQL, MongoDB, PostgreSQL 
+Frameworks & Libraries: 
+Node.js, Express, React, FastAPI 
+Cloud & Operating Systems: 
+AWS course, Ubuntu, Unix 
+Machine Learning & Data 
+Science: 
+Supervised & Unsupervised 
+Learning, Neural Networks, 
+Pandas, NumPy, Scikit-learn 
+Web Development: 
+Front-End: HTML, CSS, JavaScript, 
+React 
+Back-End: Node.js, FastAPI 
+Software Design & Architecture: 
+UML & ERD Diagrams, Design 
+Patterns, SRS & SDD 
+Documentation 
+UI/UX Design: 
+Figma, Mockups 
+Version Control & Collaboration: 
+Git, GitHub 
+  
+

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import profilePicture from '../assets/profile_picture.png';
+import profilePicture from '../assets/my_profile_pic.png';
 import Button from './ui/Button';
 
 const HeroSection = styled.section`
@@ -129,7 +129,7 @@ function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            Amir Khalifa.
+            Mohamed Hanif.
             <br />
             <span>I build secure and scalable solutions.</span>
           </Title>
@@ -138,7 +138,7 @@ function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            Software Engineering Student specializing in Cybersecurity and Cloud Development.
+            Software Engineering student focusing on Cloud Development and Data.
           </Subtitle>
           <ButtonGroup
             initial={{ opacity: 0, y: 20 }}
@@ -166,7 +166,7 @@ function Hero() {
               ease: "easeInOut"
             }}
           />
-          <ProfileImage src={profilePicture} alt="Amir Khalifa" />
+          <ProfileImage src={profilePicture} alt="Mohamed Hanif" />
         </ProfileImageWrapper>
       </HeroContainer>
     </HeroSection>

@@ -58,7 +58,7 @@ export const projects = [
     ],
     features: [
       "Built a fully serverless portfolio website using AWS Amplify with integrated CI/CD from GitHub.",
-      "Configured Route 53 for DNS management of custom domain (amirkhalifa.com).",
+      "Configured Route 53 for DNS management of custom domain (MohamedHanif.com).",
       "Implemented contact form backend with API Gateway REST endpoint, Lambda function, and Amazon SES.",
       "Applied defense-in-depth security: rate limiting (3 req/15 min), input validation, spam keyword filtering.",
       "Followed AWS IAM least-privilege principle - Lambda has minimal permissions (SES:SendEmail only).",
@@ -67,7 +67,7 @@ export const projects = [
       "Enforced HTTPS encryption with TLS 1.2+ via CloudFront CDN (managed by Amplify)."
     ],
     githubLink: "https://github.com/amirkhalifa285/my-portfolio",
-    liveLink: "https://amirkhalifa.com"
+    liveLink: "https://MohamedHanif.com"
   },
   {
     id: 2,

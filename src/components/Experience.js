@@ -1,26 +1,14 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { FaChevronDown, FaChevronUp, FaDatabase, FaServer, FaCode, FaChartLine, FaShieldAlt, FaUsers, FaClipboardList, FaTools } from 'react-icons/fa';
-import { SiMysql, SiJira, SiConfluence } from 'react-icons/si';
+import { FaChevronDown, FaChevronUp, FaDatabase, FaServer, FaCode, FaChartLine, FaUsers, FaClipboardList, FaTools } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 
-// Import company logos
-import coolVisionLogo from '../assets/coolvision.png';
-import isiLogo from '../assets/isi.png';
-import femiLogo from '../assets/Femi.png';
+// Import logos
 import yesLogo from '../assets/yes.png';
-import aristocratLogo from '../assets/aristocrat-interactive.png';
+import mhLogo from '../assets/MhLogo.png';
+import EladLogo from '../assets/elad.png'
 
-// Import technology icons
-import awsIcon from '../assets/aws.png';
-import excelIcon from '../assets/excel.png';
-import opsviewIcon from '../assets/opsview.png';
-import dynatraceIcon from '../assets/dynatrace.png';
-import zabbixIcon from '../assets/zabbix.png';
-import datadogIcon from '../assets/datadog.png';
-import coralogixIcon from '../assets/coralogix.png';
-import logzioIcon from '../assets/logzio.png';
-import opsgenieIcon from '../assets/opsgenie.jpg';
+// (Specific tech icon images not used in current entries)
 
 const ExperienceSection = styled.section`
   padding: 80px 20px;
@@ -321,124 +309,54 @@ function Experience() {
   const experiences = [
     {
       id: 1,
-      company: "Aristocrat Interactive",
-      logo: aristocratLogo,
-      title: "NOC Shift Leader",
-      duration: "October 2025 - Present | Tel Aviv",
+      company: "Elad Systems",
+      logo: EladLogo,
+      title: "NOC Engineer",
+      duration: "2025 – Present | Ramat Gan",
       skills: [
-        { name: "Datadog", icon: datadogIcon, level: 5, isImage: true },
-        { name: "Coralogix", icon: coralogixIcon, level: 5, isImage: true },
-        { name: "OpsGenie", icon: opsgenieIcon, level: 5, isImage: true },
-        { name: "Jira", icon: <SiJira />, level: 5 },
-        { name: "Azure DevOps", icon: <FaTools />, level: 4 },
-        { name: "Confluence", icon: <SiConfluence />, level: 5 },
-        { name: "Team Leadership", icon: <FaUsers />, level: 4 },
-        { name: "Incident Management", icon: <FaClipboardList />, level: 5 }
+        { name: "SQL (Analysis)", icon: <FaDatabase />, level: 4 },
+        { name: "Monitoring & Diagnostics", icon: <FaChartLine />, level: 4 },
+        { name: "Troubleshooting", icon: <FaTools />, level: 5 },
+        { name: "Team Collaboration", icon: <FaUsers />, level: 4 }
       ],
       responsibilities: [
-        "Promoted to shift leader position in 8 months to oversee 24/7 monitoring for real-money iGaming platforms, coordinating team tasks and workflows.",
-        "Led end-to-end incident handling through root cause analysis and swift coordination with infrastructure teams via Jira and Azure DevOps.",
-        "Provided problem management support for customers during incidents, delivering clear status updates and post-incident reports.",
-        "Maintained playbooks and documentation in Atlassian Confluence to ensure operational consistency."
+        "Provide support and monitoring for the Chameleon system used by Israeli hospitals.",
+        "Perform real-time troubleshooting, SQL-based data analysis, and log diagnostics.",
+        "Collaborate with development teams to ensure system reliability and performance."
       ]
     },
     {
       id: 2,
-      company: "Aristocrat Interactive",
-      logo: aristocratLogo,
-      title: "NOC/SOC Engineer",
-      duration: "March 2025 - October 2025 | Tel Aviv",
+      company: "Shenkar — Academic Excellence Program",
+      logo: mhLogo,
+      title: "Programming Mentor",
+      duration: "2023 – 2024 | Ramat Gan",
       skills: [
-        { name: "Datadog", icon: datadogIcon, level: 5, isImage: true },
-        { name: "Coralogix", icon: coralogixIcon, level: 5, isImage: true },
-        { name: "Logz.io", icon: logzioIcon, level: 4, isImage: true },
-        { name: "OpsGenie", icon: opsgenieIcon, level: 5, isImage: true },
-        { name: "Jira", icon: <SiJira />, level: 5 },
-        { name: "Azure DevOps", icon: <FaTools />, level: 4 }
+        { name: "C/C++", icon: <FaCode />, level: 4 },
+        { name: "Problem Solving", icon: <FaChartLine />, level: 4 },
+        { name: "Mentoring", icon: <FaUsers />, level: 5 }
       ],
       responsibilities: [
-        "Monitored multiple regulated lottery environments using Datadog, Coralogix, Logz.io, and OpsGenie.",
-        "Acted as first line of defense during daily maintenance windows including OS patches, new releases, and infrastructure changes.",
-        "Investigated logs and metrics to understand impact and ownership, then routed incidents to DevOps, IT, Developers, or DBAs via Jira and Azure DevOps."
+        "Selected as a mentor after achieving top grades (C: 90, C++: 85).",
+        "Guided first-year students through programming fundamentals.",
+        "Improved students' coding confidence and problem-solving skills."
       ]
     },
     {
       id: 3,
-      company: "CoolVision",
-      logo: coolVisionLogo,
-      title: "Network Operations Center (NOC) Engineer",
-      duration: "Feb 2024 - Feb 2025",
-      skills: [
-        { name: "AWS", icon: awsIcon, level: 4, isImage: true },
-        { name: "Opsview", icon: opsviewIcon, level: 5, isImage: true },
-        { name: "Dynatrace", icon: dynatraceIcon, level: 5, isImage: true },
-        { name: "Zabbix", icon: zabbixIcon, level: 4, isImage: true },
-        { name: "QA Testing", icon: <FaShieldAlt />, level: 4 },
-        { name: "Server Management", icon: <FaServer />, level: 5 }
-      ],
-      responsibilities: [
-        "Monitored Opsview, Dynatrace, and Zabbix services while achieving 99.9% uptime at the Pingdom platform.",
-        "Managed AWS Cloud Resources, performing server resets and maintenance tasks within Amazon Web Services environments.",
-        "Conducted Manual QA Testing on multiple company websites to identify and resolve functionality issues.",
-        "Troubleshot and resolved technical issues promptly to minimize downtime and service disruptions.",
-        "Collaborated with cross-functional teams to implement system upgrades and optimize performance.",
-        "Developed and maintained operational documentation for procedures, incident reports, and best practices.",
-        "Implemented monitoring strategies to proactively detect and address potential system vulnerabilities.",
-        "Analyzed system logs and metrics to identify trends and prevent future incidents.",
-        "Supported deployment processes by coordinating with development teams to roll out new features and services."
-      ]
-    },
-    {
-      id: 4,
-      company: "Israel Standardization Institute",
-      logo: isiLogo,
-      title: "Gold Department IT, Tel Aviv",
-      duration: "May 2023 - Aug 2024",
-      skills: [
-        { name: "Excel", icon: excelIcon, level: 3, isImage: true },
-        { name: "Database Management", icon: <FaDatabase />, level: 1 },
-        { name: "IT Support", icon: <FaServer />, level: 2 }
-      ],
-      responsibilities: [
-        "Handled technical issues with laboratory and office equipment within the department.",
-        "Calculated net weight of gold processed, ensuring 100% accuracy through precise measurements and verification processes.",
-        "Managed orders for over 50 importers using an organized inventory management system, effectively managing their orders."
-      ]
-    },
-    {
-      id: 5,
-      company: "Femi Premium",
-      logo: femiLogo,
-      title: "SQL-Technician, Ben-Gurion Airport",
-      duration: "Jan 2022 - Jun 2022",
-      skills: [
-        { name: "SQL", icon: <FaDatabase />, level: 5 },
-        { name: "MySQL", icon: <SiMysql />, level: 5 },
-        { name: "Data Analysis", icon: <FaChartLine />, level: 4 },
-        { name: "Technical Support", icon: <FaCode />, level: 4 }
-      ],
-      responsibilities: [
-        "Provided technical support to the COVID-19 testing project at Ben-Gurion airport, efficiently managing over 1,000 tests daily using SQL for data management.",
-        "Supplied data to customers and other departments, ensuring 99% accuracy through rigorous validation.",
-        "Troubleshot and resolved SQL-based problems, reducing system downtime by 20%.",
-        "Collaborated with the Ministry of Health and five major laboratories, improving collaboration efficiency by 25%."
-      ]
-    },
-    {
-      id: 6,
-      company: "Yes TV",
+      company: "Yes Company",
       logo: yesLogo,
-      title: "Technical Support Agent, Babcom Centers",
-      duration: "Jun 2019 - Nov 2020",
+      title: "Team Leader, Technical Support",
+      duration: "2020 – 2022 | Various",
       skills: [
         { name: "Technical Support", icon: <FaServer />, level: 5 },
-        { name: "Customer Service", icon: <FaCode />, level: 5 },
-        { name: "Problem Solving", icon: <FaChartLine />, level: 5 }
+        { name: "Leadership", icon: <FaUsers />, level: 5 },
+        { name: "Performance Management", icon: <FaClipboardList />, level: 4 }
       ],
       responsibilities: [
-        "Provided technical support for company devices, achieving a customer satisfaction rate of 90% by effectively resolving issues.",
-        "Improved task completion speed by 30% using the Wizard Windows application.",
-        "Maintained a 4.8/5 customer satisfaction rating through effective problem-solving techniques and clear communication."
+        "Started as a Technical Support Representative, resolving customer issues efficiently.",
+        "Promoted to Team Leader; managed 15–20 employees and maintained high service quality.",
+        "Oversaw team performance and ensured effective task execution."
       ]
     }
   ];
