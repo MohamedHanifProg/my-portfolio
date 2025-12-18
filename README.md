@@ -1,0 +1,1 @@
+Welcome to my portfolio page, nothing special just learned react building this portfolio.
