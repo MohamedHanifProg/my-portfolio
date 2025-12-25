@@ -6,8 +6,8 @@ import lostFound1 from '../assets/Lost&Found1.png';
 import archade from '../assets/archade.png';
 import archade1 from '../assets/archade1.png';
 import archade2 from '../assets/archade2.png';
-import archade3 from '../assets/archade3.png';
-import drinkSmartArchitecture from '../assets/DrinkSmart-Architecture.png';
+
+
 import flyEase1 from '../assets/FlyEase1.png';
 import flyEase2 from '../assets/FlyEase2.png';
 import flyEase3 from '../assets/FlyEase3.png';
@@ -245,26 +245,35 @@ export const projects = [
     githubLink: "https://github.com/MohamedHnef/Lost-And-Found-Project/tree/master",
     liveLink: null
   },
-  {
-    id: 9,
-    name: "DrinkSmart",
-    logo: drinkSmartLogo,
-    type: "Application Design and SRS",
-    category: "design",
-    images: [archade,archade1, archade2, archade3],
-    duration: "2022",
-    technologies: [
-      { name: "Moqups", icon: moqupsIcon, level: 5, isImage: true },
-      { name: "UI/UX Design", icon: <FaPencilRuler />, level: 5 },
-      { name: "Documentation", icon: <FaFileAlt />, level: 5 }
-    ],
-    features: [
-      "Completed the project 2 weeks ahead of schedule.",
-      "Presented the project to the head of the Software Engineering department, receiving commendation for innovation and usability.",
-      "Developed a smart bottle application prototype to track water intake and encourage hydration.",
-      "Collaborated with a team to create a comprehensive Software Requirements Specification (SRS) document."
-    ],
-    githubLink: "https://github.com/MohamedHanifProg/copilot-assignment",
-    liveLink: null
-  }
+ {
+  id: 9,
+  name: "Code Arcade: The Glitch",
+  logo: archade, // use an arcade / glitch themed icon or image
+  type: "AI-Assisted Game Development",
+  category: "ai",
+  images: [
+    archade,
+    archade1,
+    archade2
+  ],
+  duration: "2024",
+  technologies: [
+    { name: "JavaScript", icon: jsIcon, level: 5, isImage: true },
+    { name: "HTML5 Canvas", icon: htmlIcon, level: 5, isImage: true },
+    { name: "CSS", icon: cssIcon, level: 4, isImage: true },
+    { name: "GitHub Copilot", icon: githubIcon, level: 5, isImage: true },
+    { name: "MCP (Model Context Protocol)", icon: aiIcon, level: 4 }
+  ],
+  features: [
+    "Built a fully playable retro arcade game using GitHub Copilot Agent Mode with zero manual coding.",
+    "Demonstrated AI autonomy by allowing the agent to plan, generate, debug, and complete the entire project independently.",
+    "Injected a custom AI persona ('The Glitch') to alter Copilot’s behavior, coding style, and response tone.",
+    "Implemented neon-themed UI and chaotic in-code commentary through persistent persona instructions.",
+    "Extended AI capabilities using MCP tooling to access external files and modify game logic dynamically.",
+    "Added a hidden cheat-code system powered by an external vault file, enabling invincibility mode at runtime."
+  ],
+  githubLink: "https://github.com/MohamedHanifProg/copilot-assignment",
+  liveLink: null
+}
+
 ];
