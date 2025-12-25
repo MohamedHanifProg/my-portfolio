@@ -3,11 +3,10 @@ import drinkSmartLogo from '../assets/drinkSmartlogo.png';
 import flyEaseLogo from '../assets/FlyEaseLogo.png';
 
 import lostFound1 from '../assets/Lost&Found1.png';
-import drinkSmart1 from '../assets/DrinkSmart1.png';
-import drinkSmart2 from '../assets/DrinkSmart2.png';
-import drinkSmart3 from '../assets/DrinkSmart3.png';
-import drinkSmart4 from '../assets/DrinkSmart4.png';
-import drinkSmart5 from '../assets/DrinkSmart5.png';
+import archade from '../assets/archade.png';
+import archade1 from '../assets/archade1.png';
+import archade2 from '../assets/archade2.png';
+import archade3 from '../assets/archade3.png';
 import drinkSmartArchitecture from '../assets/DrinkSmart-Architecture.png';
 import flyEase1 from '../assets/FlyEase1.png';
 import flyEase2 from '../assets/FlyEase2.png';
@@ -66,7 +65,7 @@ export const projects = [
       "Achieved zero-server architecture with automatic scaling and built-in high availability.",
       "Enforced HTTPS encryption with TLS 1.2+ via CloudFront CDN (managed by Amplify)."
     ],
-    githubLink: "https://github.com/amirkhalifa285/my-portfolio",
+    githubLink: "https://github.com/MohamedHanifProg/my-portfolio",
     liveLink: "https://MohamedHanif.com"
   },
   {
@@ -114,7 +113,7 @@ export const projects = [
       "Generates optimized C code as output, enabling compilation to native executables.",
       "Supports vector indexing with both integer literals and vector-based index arrays."
     ],
-    githubLink: "https://github.com/amirkhalifa285/VLANG",
+    githubLink: "https://github.com/MohamedHanifProg/Vlang_Compiler",
     liveLink: null
   },
   {
@@ -171,7 +170,7 @@ export const projects = [
       "Deployed static assets to Amazon S3 for scalable hosting.",
       "Implemented full CI/CD pipeline with AWS Amplify for automatic deployments."
     ],
-    githubLink: "https://github.com/amirkhalifa285/wildrydes-serverless-webapp",
+    githubLink: "https://github.com/MohamedHanifProg/while-rydes",
     liveLink: null
   },
   {
@@ -195,8 +194,8 @@ export const projects = [
       "Integrated dynamic content loading and media streaming capabilities.",
       "Developed RESTful API backend for content management and user data."
     ],
-    githubLink: "https://github.com/amirkhalifa285/netflix-clone-frontend",
-    githubLinkBackend: "https://github.com/amirkhalifa285/netflix-clone-backend",
+    githubLink: "https://github.com/MohamedHanifProg/NetflixFront-End",
+    githubLinkBackend: "https://github.com/MohamedHanifProg/NetlfixBack-End",
     liveLink: null
   },
   {
@@ -219,7 +218,7 @@ export const projects = [
       "Implemented step history tracking with smoothed graph visualization on OLED display.",
       "Added animated foot icons and real-time step counter with activity detection."
     ],
-    githubLink: "https://github.com/amirkhalifa285/PedoMeter-MicroChipCuriosity24",
+    githubLink: "https://github.com/MohamedHanifProg/pedometer_project",
     liveLink: null
   },
   {
@@ -243,7 +242,7 @@ export const projects = [
       "Successfully deployed on Render for live use.",
       "Received positive feedback for functionality and ease of use."
     ],
-    githubLink: "https://github.com/amirkhalifa285/Lost-And-Found-Project",
+    githubLink: "https://github.com/MohamedHnef/Lost-And-Found-Project/tree/master",
     liveLink: null
   },
   {
@@ -252,7 +251,7 @@ export const projects = [
     logo: drinkSmartLogo,
     type: "Application Design and SRS",
     category: "design",
-    images: [drinkSmart1, drinkSmart2, drinkSmart3, drinkSmart4, drinkSmart5, drinkSmartArchitecture],
+    images: [archade,archade1, archade2, archade3],
     duration: "2022",
     technologies: [
       { name: "Moqups", icon: moqupsIcon, level: 5, isImage: true },
@@ -265,7 +264,7 @@ export const projects = [
       "Developed a smart bottle application prototype to track water intake and encourage hydration.",
       "Collaborated with a team to create a comprehensive Software Requirements Specification (SRS) document."
     ],
-    githubLink: "https://github.com/amirkhalifa285/drinkSmart",
+    githubLink: "https://github.com/MohamedHanifProg/copilot-assignment",
     liveLink: null
   }
 ];
