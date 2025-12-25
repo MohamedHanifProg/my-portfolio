@@ -1,12 +1,10 @@
 import lostFoundLogo from '../assets/lostandfound.png';
-import drinkSmartLogo from '../assets/drinkSmartlogo.png';
 import flyEaseLogo from '../assets/FlyEaseLogo.png';
 
 import lostFound1 from '../assets/Lost&Found1.png';
 import archade from '../assets/archade.png';
 import archade1 from '../assets/archade1.png';
 import archade2 from '../assets/archade2.png';
-
 
 import flyEase1 from '../assets/FlyEase1.png';
 import flyEase2 from '../assets/FlyEase2.png';
@@ -22,22 +20,22 @@ import sqlIcon from '../assets/sql.png';
 import pythonIcon from '../assets/python.png';
 import fastApiIcon from '../assets/FastAPI.png';
 import reactIcon from '../assets/react.png';
-import moqupsIcon from '../assets/moqups.jpg';
 import cIcon from '../assets/c.png';
+
 import vlangLogo from '../assets/c.png';
 import vlang1 from '../assets/vlang1.png';
+
 import arpDns1 from '../assets/arp_dns_spoofing_1.png';
 import arpDns2 from '../assets/arp_dns_spoofing_2.png';
 import arpDns3 from '../assets/arp_dns_spoofing_3.png';
+
 import pedometer1 from '../assets/pedometer.jpg';
 import netflixClone1 from '../assets/netflix-clone_1.jpg';
 import netflixClone2 from '../assets/netflix-clone_2.jpg';
+
 import wildRydes1 from '../assets/wilde-rydes.png';
 import awsIcon from '../assets/aws.png';
 import portfolioArch from '../assets/portfolio-architecture.png';
-
-import { FaPencilRuler, FaFileAlt } from 'react-icons/fa';
-import React from 'react';
 
 export const projects = [
   // Newest projects first
@@ -245,35 +243,30 @@ export const projects = [
     githubLink: "https://github.com/MohamedHnef/Lost-And-Found-Project/tree/master",
     liveLink: null
   },
- {
-  id: 9,
-  name: "Code Arcade: The Glitch",
-  logo: archade, // use an arcade / glitch themed icon or image
-  type: "AI-Assisted Game Development",
-  category: "ai",
-  images: [
-    archade,
-    archade1,
-    archade2
-  ],
-  duration: "2024",
-  technologies: [
-    { name: "JavaScript", icon: jsIcon, level: 5, isImage: true },
-    { name: "HTML5 Canvas", icon: htmlIcon, level: 5, isImage: true },
-    { name: "CSS", icon: cssIcon, level: 4, isImage: true },
-    { name: "GitHub Copilot", icon: githubIcon, level: 5, isImage: true },
-    { name: "MCP (Model Context Protocol)", icon: aiIcon, level: 4 }
-  ],
-  features: [
-    "Built a fully playable retro arcade game using GitHub Copilot Agent Mode with zero manual coding.",
-    "Demonstrated AI autonomy by allowing the agent to plan, generate, debug, and complete the entire project independently.",
-    "Injected a custom AI persona ('The Glitch') to alter Copilot’s behavior, coding style, and response tone.",
-    "Implemented neon-themed UI and chaotic in-code commentary through persistent persona instructions.",
-    "Extended AI capabilities using MCP tooling to access external files and modify game logic dynamically.",
-    "Added a hidden cheat-code system powered by an external vault file, enabling invincibility mode at runtime."
-  ],
-  githubLink: "https://github.com/MohamedHanifProg/copilot-assignment",
-  liveLink: null
-}
-
+  {
+    id: 9,
+    name: "Code Arcade: The Glitch",
+    logo: archade,
+    type: "AI-Assisted Game Development",
+    category: "fullstack",
+    images: [archade1, archade2],
+    duration: "2024",
+    technologies: [
+      { name: "JavaScript", icon: jsIcon, level: 5, isImage: true },
+      { name: "HTML5 Canvas", icon: htmlIcon, level: 5, isImage: true },
+      { name: "CSS", icon: cssIcon, level: 4, isImage: true },
+      { name: "GitHub Copilot", icon: jsIcon, level: 5, isImage: true },
+      { name: "MCP (Model Context Protocol)", icon: jsIcon, level: 4, isImage: true }
+    ],
+    features: [
+      "Built a fully playable retro arcade game using GitHub Copilot Agent Mode with zero manual coding.",
+      "Demonstrated AI autonomy by allowing the agent to plan, generate, debug, and complete the entire project independently.",
+      "Injected a custom AI persona ('The Glitch') to alter Copilot’s behavior, coding style, and response tone.",
+      "Implemented neon-themed UI and chaotic in-code commentary through persistent persona instructions.",
+      "Extended AI capabilities using MCP tooling to access external files and modify game logic dynamically.",
+      "Added a hidden cheat-code system powered by an external vault file, enabling invincibility mode at runtime."
+    ],
+    githubLink: "https://github.com/MohamedHanifProg/copilot-assignment",
+    liveLink: null
+  }
 ];
