@@ -244,6 +244,7 @@ const ApiErrorMessage = styled.div`
 `;
 
 function Contact() {
+  const CONTACT_API_BASE = process.env.REACT_APP_CONTACT_API || 'https://dddj5rowmf.execute-api.eu-west-1.amazonaws.com/prod';
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -313,7 +314,7 @@ function Contact() {
     setIsSubmitting(true);
     
     try {
-      const response = await fetch('https://dddj5rowmf.execute-api.eu-west-1.amazonaws.com/prod/contact', {
+      const response = await fetch(`${CONTACT_API_BASE}/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
