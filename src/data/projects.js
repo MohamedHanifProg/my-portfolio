@@ -24,10 +24,8 @@ import cIcon from '../assets/c.png';
 
 import vlangLogo from '../assets/c.png';
 import vlang1 from '../assets/vlang1.png';
+import neuralImg from '../assets/Neural.jpeg.jpg';
 
-import arpDns1 from '../assets/arp_dns_spoofing_1.png';
-import arpDns2 from '../assets/arp_dns_spoofing_2.png';
-import arpDns3 from '../assets/arp_dns_spoofing_3.png';
 
 import pedometer1 from '../assets/pedometer.jpg';
 import netflixClone1 from '../assets/netflix-clone_1.jpg';
@@ -36,6 +34,9 @@ import netflixClone2 from '../assets/netflix-clone_2.jpg';
 import wildRydes1 from '../assets/wilde-rydes.png';
 import awsIcon from '../assets/aws.png';
 import portfolioArch from '../assets/portfolio-architecture.png';
+import esp32Img from '../assets/esp32.jpeg';
+import assemblyImg from '../assets/assembly.jpeg.webp';
+import pipelineImg from '../assets/pipeline.jpeg.jpeg';
 
 export const projects = [
   // Newest projects first
@@ -67,26 +68,69 @@ export const projects = [
     liveLink: "https://MohamedHanif.com"
   },
   {
-    id: 2,
-    name: "ARP & DNS Spoofing",
-    logo: pythonIcon,
-    type: "Cybersecurity Tool",
-    category: "cybersecurity",
-    images: [arpDns1, arpDns2, arpDns3],
-    duration: "July 2025",
+    id: 12,
+    name: "Full-Stack Data Pipeline Course",
+    logo: fastApiIcon,
+    type: "Data Pipeline / Microservices",
+    category: "fullstack",
+    images: [pipelineImg],
+    duration: "2025",
     technologies: [
-      { name: "Python", icon: pythonIcon, level: 5, isImage: true }
+      { name: "Python", icon: pythonIcon, level: 5, isImage: true },
+      { name: "FastAPI", icon: fastApiIcon, level: 4, isImage: true },
+      { name: "Docker", icon: awsIcon, level: 4, isImage: true }
     ],
     features: [
-      "Developed a Man-in-the-Middle (MITM) attack toolkit demonstrating ARP and DNS spoofing techniques.",
-      "Built an ARP spoofer using Scapy to intercept network traffic by poisoning ARP tables of target and gateway.",
-      "Implemented DNS spoofing to redirect victims to attacker-controlled servers by modifying DNS responses.",
-      "Utilized NetfilterQueue for real-time packet interception and modification.",
-      "Includes automatic ARP table restoration on exit to maintain network integrity.",
-      "Created comprehensive documentation with Wireshark packet captures (.pcapng) for attack analysis.",
-      "Demonstrated attack in controlled lab environment with video walkthrough and presentation."
+      "End-to-end pipeline: web scraping → cleaning → storage → APIs → chatbot.",
+      "Uses Docker Compose to orchestrate microservices and dependencies.",
+      "Exposes data via FastAPI services with Swagger docs.",
+      "Final project: Shopping List Assistant Bot with cheapest basket search and substitutes.",
+      "Integrates AI (RAG + natural language) for enriched queries over data.",
+      "Repo layout: examples/, assignments/ (with warm-up/), Installations.md."
     ],
-    githubLink: "https://github.com/amirkhalifa285/arp-dns-spoofing",
+    githubLink: "https://github.com/MohamedHanifProg/data-pipeline-2025/tree/final-project-edit2",
+    liveLink: null
+  },
+  {
+    id: 10,
+    name: "WiFiCard Config on ESP (RFID Demo)",
+    logo: cIcon,
+    type: "Embedded / RFID",
+    category: "systems",
+    images: [esp32Img],
+    duration: "2025",
+    technologies: [
+      { name: "C/C++", icon: cIcon, level: 5, isImage: true }
+    ],
+    features: [
+      "Stores and updates device configuration on a MIFARE Classic card via MFRC522.",
+      "On scan: reads config blocks, creates default if missing (prefix CFG:).",
+      "Decrements JSON field 'counter' with wraparound 99→00 and writes back.",
+      "Payload stored as null-terminated C string across 16-byte blocks (≤128B).",
+      "Targets ESP32/ESP8266/Arduino using SPI with MFRC522 library."
+    ],
+    githubLink: "https://github.com/MohamedHanifProg/WiFiCard-Config-on-esp/tree/main",
+    liveLink: null
+  },
+  {
+    id: 11,
+    name: "Assembly: Student Grades Graph Overview",
+    logo: cIcon,
+    type: "Assembly / Visualization",
+    category: "systems",
+    images: [assemblyImg],
+    duration: "2025",
+    technologies: [
+      { name: "Mano Assembly", icon: cIcon, level: 4, isImage: true },
+      { name: "C/High-Level", icon: cIcon, level: 3, isImage: true }
+    ],
+    features: [
+      "Accepts student names with corresponding grades as input.",
+      "Generates a visual graph to compare student grades.",
+      "Translates high-level logic into Mano Assembly for low-level control.",
+      "Organized into high_level_code/, assembly_code/, and docs/ for traceability."
+    ],
+    githubLink: "https://github.com/MohamedHanifProg/asemble-project",
     liveLink: null
   },
   {
@@ -112,6 +156,28 @@ export const projects = [
       "Supports vector indexing with both integer literals and vector-based index arrays."
     ],
     githubLink: "https://github.com/MohamedHanifProg/Vlang_Compiler",
+    liveLink: null
+  },
+  {
+    id: 2,
+    name: "From Theory to Practice: Knowledge Distillation",
+    logo: pythonIcon,
+    type: "Neural Networks Project",
+    category: "ml",
+    images: [neuralImg],
+    duration: "2025",
+    technologies: [
+      { name: "Python", icon: pythonIcon, level: 5, isImage: true }
+    ],
+    features: [
+      "Implemented Knowledge Distillation: GPT-2 Medium (teacher) → DistilGPT-2 (student).",
+      "Loss: cross-entropy + KL divergence with temperature scheduling (τ: 3 → 2, α: 0.7 → 0.5).",
+      "Data: 10k WikiText-103 samples, 90/10 train/val split.",
+      "Frameworks: PyTorch + HuggingFace Transformers for training and evaluation.",
+      "Compression: ~354M → ~82M parameters (~4.3× smaller); faster and lighter deployment.",
+      "Performance: validation perplexity improved from 42.38 (teacher baseline) to 37.12 (student) by epoch ~10."
+    ],
+    githubLink: "https://github.com/MohamedHanifProg/Neural-Network_Final_Project",
     liveLink: null
   },
   {
@@ -250,7 +316,7 @@ export const projects = [
     type: "AI-Assisted Game Development",
     category: "fullstack",
     images: [archade1, archade2],
-    duration: "2024",
+    duration: "2025",
     technologies: [
       { name: "JavaScript", icon: jsIcon, level: 5, isImage: true },
       { name: "HTML5 Canvas", icon: htmlIcon, level: 5, isImage: true },
