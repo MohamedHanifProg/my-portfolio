@@ -24,7 +24,7 @@ import cIcon from '../assets/c.png';
 
 import vlangLogo from '../assets/c.png';
 import vlang1 from '../assets/vlang1.png';
-import neuralImg from '../assets/Neural.jpeg.jpg';
+import neuralImg from '../assets/neural.jpeg';
 
 
 import pedometer1 from '../assets/pedometer.jpg';
@@ -35,8 +35,8 @@ import wildRydes1 from '../assets/wilde-rydes.png';
 import awsIcon from '../assets/aws.png';
 import portfolioArch from '../assets/portfolio-architecture.png';
 import esp32Img from '../assets/esp32.jpeg';
-import assemblyImg from '../assets/assembly.jpeg.webp';
-import pipelineImg from '../assets/pipeline.jpeg.jpeg';
+import assemblyImg from '../assets/assembly.jpeg';
+import pipelineImg from '../assets/pipeline.jpeg';
 
 export const projects = [
   // Newest projects first
